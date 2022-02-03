@@ -46,3 +46,10 @@ if (place_meeting(x, y + 1, oWall) and (jump))
 {
 	yVector = jumpForce;
 }
+
+//die in a pit and restart level
+if (y >= room_height)
+	
+	{
+		room_restart();
+	}
