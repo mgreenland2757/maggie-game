@@ -1,3 +1,4 @@
+///@description creating variables
 //code that runs when player is created  
 //how many pixels per frame we want the player to move
 xSpeed = 4;
@@ -11,10 +12,17 @@ xVector = xSpeed * xDirection;
 yVector = 0;
 
 //gravity levels
-grv = 0.3;
+grv = 0.4;
 
-jumpForce = -11;
+jumpForce = -10;
 
 //coins and points
 
 global.coins = 0;
+
+//invicibility 
+isInvincible = false;
+
+//health points
+hp = 6;
+

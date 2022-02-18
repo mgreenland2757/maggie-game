@@ -1,3 +1,4 @@
+///@description movement
 //keyboard check and inputs
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
@@ -51,5 +52,5 @@ if (place_meeting(x, y + 1, oWall) and (jump))
 if (y >= room_height)
 	
 	{
-		room_restart();
+		PlayerDeath();
 	}
