@@ -14,7 +14,7 @@ if(isInvincible)
 xDirection = sign(oPlayer.x - x);
 xVector = xSpeed * xDirection
 
-if (abs(oPlayer.x - x) > 64)
+if (abs(oPlayer.x - x) > 128)
 {
 	x = x + xVector
 }

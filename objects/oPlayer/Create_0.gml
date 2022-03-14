@@ -26,3 +26,6 @@ isInvincible = false;
 //health points
 hp = 6;
 
+omniDirection = 0;
+dashing = false;
+dashTimer = 0.3;

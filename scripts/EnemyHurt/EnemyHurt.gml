@@ -22,3 +22,4 @@ function EnemyDeath()
 			instance_create_layer(other.x, other.y, "Instances", oCoin);
 		}
 }
+ 
