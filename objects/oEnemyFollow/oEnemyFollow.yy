@@ -3,7 +3,7 @@
     "name": "Sprite3",
     "path": "sprites/Sprite3/Sprite3.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

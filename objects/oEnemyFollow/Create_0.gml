@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
- 
 //boolean for invincibility
 isInvincible = false;
 
@@ -15,4 +12,4 @@ turnTimer = 2.5;
 
 xDirection = 0;
 xSpeed = 2;
-xVector = xSpeed * xDirection
+

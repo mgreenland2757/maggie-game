@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 if(isInvincible) 
 {
 	invTimer -= 1/room_speed;
@@ -14,7 +11,7 @@ if(isInvincible)
 xDirection = sign(oPlayer.x - x);
 xVector = xSpeed * xDirection
 
-if (abs(oPlayer.x - x) > 128)
+if ((oPlayer.x - x) <= 64)
 {
 	x = x + xVector
 }
